@@ -2,13 +2,13 @@
   "schema": "hermes-achievements-public-snapshot/v1",
   "captured_at": "2026-07-15",
   "summary": {
-    "unlocked": 55,
+    "unlocked": 56,
     "total": 60,
-    "discovered_remaining": 5,
+    "discovered_remaining": 4,
     "hidden_published": 0,
-    "completion_percent": 91.7,
+    "completion_percent": 93.3,
     "highest_tier": "Olympian",
-    "latest_unlock": "Pixel Goblin"
+    "latest_unlock": "Vibe Architect"
   },
   "story_chapters": ["Explore", "Build", "Verify", "Master"],
   "privacy": {

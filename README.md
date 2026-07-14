@@ -1,13 +1,13 @@
 # Hermes Achievements
 
 [![Static site](https://img.shields.io/badge/site-static-E8BD6A)](index.html)
-[![Snapshot](https://img.shields.io/badge/snapshot-55%20%2F%2060-6FD3B2)](data/snapshot.json)
+[![Snapshot](https://img.shields.io/badge/snapshot-56%20%2F%2060-6FD3B2)](data/snapshot.json)
 [![Privacy](https://img.shields.io/badge/privacy-aggregate%20only-29313B)](#privacy)
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue)](LICENSE)
 
 [![Hermes Achievements public showcase](assets/social-preview.svg)](https://shinjaehyun20.github.io/hermes-achievements/)
 
-**A public-safe visual snapshot of an agent achievement system.** It turns aggregate progress—55 of 60 unlocked, Olympian tier, latest unlock Pixel Goblin—into a responsive portfolio story without publishing private activity history.
+**A public-safe visual snapshot of an agent achievement system.** It turns aggregate progress—56 of 60 unlocked, Olympian tier, latest unlock Vibe Architect—into a responsive portfolio story without publishing private activity history.
 
 **[Open the live showcase](https://shinjaehyun20.github.io/hermes-achievements/)** · [Inspect the snapshot](data/snapshot.json) · [Read the security policy](SECURITY.md)
 
@@ -36,10 +36,10 @@ GitHub Pages can serve the repository root directly. No build step or external r
 
 The snapshot was manually reduced from a locally running Hermes achievements page on 2026-07-15. It includes only:
 
-- 55 unlocked out of 60 total
-- 5 visible achievements remaining
+- 56 unlocked out of 60 total
+- 4 visible achievements remaining
 - highest tier: `Olympian`
-- latest unlock: `Pixel Goblin`
+- latest unlock: `Vibe Architect`
 - zero secret achievement metadata published
 
 The site does not connect to a live Hermes instance.
