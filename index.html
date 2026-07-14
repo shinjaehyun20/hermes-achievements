@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="A privacy-safe visual snapshot of the Hermes achievement system: 55 of 60 unlocked, Olympian tier." />
+    <meta name="theme-color" content="#080b0f" />
+    <meta property="og:title" content="Hermes Achievements — 55 / 60" />
+    <meta property="og:description" content="A public-safe achievement showcase built from a sanitized local snapshot." />
+    <meta property="og:image" content="assets/social-preview.svg" />
+    <title>Hermes Achievements — 55 / 60</title>
+    <link rel="icon" href="assets/trophy-mark.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="noise" aria-hidden="true"></div>
+    <header class="site-header">
+      <a class="brand" href="#top" aria-label="Hermes Achievements home"><img src="assets/trophy-mark.svg" alt="" /><span>Hermes<br /><b>Achievements</b></span></a>
+      <nav aria-label="Primary navigation"><a href="#collection">Collection</a><a href="#provenance">Provenance</a><a class="nav-cta" href="https://github.com/shinjaehyun20/hermes-achievements">View source</a></nav>
+    </header>
+
+    <main id="top">
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="hero-copy">
+          <p class="eyebrow"><span></span> Sanitized showcase · July 2026</p>
+          <h1 id="hero-title">Proof of craft,<br /><em>earned in public.</em></h1>
+          <p class="lede">A privacy-safe view of a local agent achievement system—distilled to progress, tiers, and the stories behind the milestones.</p>
+          <div class="hero-actions"><a class="button primary" href="#collection">Explore the collection <span>↓</span></a><a class="button secondary" href="data/snapshot.json">Inspect snapshot</a></div>
+          <ul class="trust-row" aria-label="Showcase properties"><li>No session history</li><li>No private paths</li><li>No credentials</li></ul>
+        </div>
+        <div class="hero-trophy" aria-label="55 of 60 achievements unlocked">
+          <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+          <div class="trophy-card"><div class="trophy-glow"></div><div class="laurel left">❮</div><img src="assets/trophy-mark.svg" alt="Golden trophy" /><div class="laurel right">❯</div><p>Highest tier</p><strong>Olympian</strong><span>55 of 60 unlocked</span></div>
+          <div class="floating-chip latest"><small>Latest unlock</small><b>Pixel Goblin</b></div>
+          <div class="floating-chip completion"><b>91.7%</b><small>completion</small></div>
+        </div>
+      </section>
+
+      <section class="metrics" aria-label="Achievement summary"><article><span class="metric-number" data-counter="55">55</span><p>Unlocked</p><small>across all tracked milestones</small></article><article><span class="metric-number muted">05</span><p>Discovered</p><small>visible paths still in progress</small></article><article><span class="metric-number">00</span><p>Hidden</p><small>no secret metadata published</small></article><article><span class="metric-word">S</span><p>Olympian</p><small>highest earned tier</small></article></section>
+
+      <section id="collection" class="collection section-shell">
+        <div class="section-heading"><div><p class="eyebrow"><span></span> Selected collection</p><h2>A system, not a sticker wall.</h2></div><p>Every badge family represents a different form of practice: shipping, resilience, exploration, and craft. The public snapshot shares the pattern—not the private activity behind it.</p></div>
+        <div class="badge-grid">
+          <article class="badge-card featured"><div class="badge-icon gold">♜</div><div><small>Tier milestone</small><h3>Olympian</h3><p>The highest visible tier in this snapshot—earned by sustained completion across the system.</p></div><span class="status">Highest</span></article>
+          <article class="badge-card"><div class="badge-icon coral">▦</div><div><small>Latest unlock</small><h3>Pixel Goblin</h3><p>A playful craft milestone and the newest addition to the unlocked collection.</p></div><span class="status">New</span></article>
+          <article class="badge-card"><div class="badge-icon mint">✓</div><div><small>Completion</small><h3>55 / 60</h3><p>Five known achievements remain discoverable. Secret achievement metadata stays private.</p></div><span class="status">91.7%</span></article>
+        </div>
+      </section>
+
+      <section class="tier-story section-shell">
+        <div class="tier-copy"><p class="eyebrow"><span></span> Progress story</p><h2>Momentum has a shape.</h2><p>Achievements become useful when they reveal a trajectory. This showcase groups that trajectory into four public-safe chapters.</p></div>
+        <ol class="tier-track"><li class="complete"><span>01</span><div><b>Explore</b><small>Find the edges</small></div></li><li class="complete"><span>02</span><div><b>Build</b><small>Turn intent into artifacts</small></div></li><li class="complete"><span>03</span><div><b>Verify</b><small>Close with evidence</small></div></li><li class="current"><span>04</span><div><b>Master</b><small>Olympian tier reached</small></div></li></ol>
+      </section>
+
+      <section id="provenance" class="provenance section-shell"><div><p class="eyebrow"><span></span> Data provenance</p><h2>Real signal.<br />Deliberately reduced.</h2></div><div class="provenance-card"><p>This project uses a <strong>manually sanitized aggregate snapshot</strong> from a local Hermes achievements page. It publishes only counts, the highest tier, the latest achievement name, and explanatory category labels.</p><dl><div><dt>Included</dt><dd>Aggregate progress · tier · latest unlock</dd></div><div><dt>Excluded</dt><dd>Session names · local paths · raw logs · identity data · tokens</dd></div><div><dt>Updated</dt><dd id="snapshot-date">2026-07-15</dd></div></dl><a href="data/snapshot.json">Read the machine-readable snapshot →</a></div></section>
+    </main>
+    <footer><div class="brand footer-brand"><img src="assets/trophy-mark.svg" alt="" /><span>Hermes<br /><b>Achievements</b></span></div><p>Built as a public-safe portfolio surface. No private Hermes runtime data is shipped.</p><a href="https://github.com/shinjaehyun20/hermes-achievements">GitHub ↗</a></footer>
+    <script src="app.js" defer></script>
+  </body>
+</html>

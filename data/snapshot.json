@@ -1,0 +1,18 @@
+{
+  "schema": "hermes-achievements-public-snapshot/v1",
+  "captured_at": "2026-07-15",
+  "summary": {
+    "unlocked": 55,
+    "total": 60,
+    "discovered_remaining": 5,
+    "hidden_published": 0,
+    "completion_percent": 91.7,
+    "highest_tier": "Olympian",
+    "latest_unlock": "Pixel Goblin"
+  },
+  "story_chapters": ["Explore", "Build", "Verify", "Master"],
+  "privacy": {
+    "aggregate_only": true,
+    "excluded": ["session titles", "local paths", "usernames", "raw logs", "credentials", "secret achievement metadata"]
+  }
+}
