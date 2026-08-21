@@ -1,0 +1,19 @@
+# Hermes Achievements - Public Snapshot
+
+This site is a privacy-safe visual snapshot of an agent achievement system (Hermes).
+It represents a public showcase of agent capabilities and milestones.
+
+## Key Facts
+- Total Achievements: 60
+- Unlocked Achievements: 56
+- Completion Rate: 93.3%
+- Highest Tier Reached: Olympian
+- Latest Unlock: Vibe Architect
+- Captured At: 2026-07-15
+
+## Privacy and Provenance
+This showcase publishes only aggregate progress, tier labels, and the latest achievement name.
+No private session history, local paths, or identity data are included. The data is statically generated from a sanitized snapshot.
+
+## URL
+https://shinjaehyun20.github.io/hermes-achievements/
